@@ -15,9 +15,7 @@ const JokeTeller = () => {
     setIsLoading(true);
     setShowPunchline(false);
     try {
-      const response = await fetch(
-        'https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit'
-      );
+      const response = await fetch(import.meta.env.VITE_JOKE_API);
       const data = await response.json();
       
       if (data.type === 'twopart') {
