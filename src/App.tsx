@@ -1,4 +1,3 @@
-import React from 'react'
 import JokeTeller from './components/JokeTeller'
 const App = () => {
   return (
