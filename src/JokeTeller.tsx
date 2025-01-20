@@ -83,11 +83,6 @@ const JokeTeller = () => {
 
   return (
     <div className="min-h-screen p-4 flex items-center justify-center bg-gradient-to-br from-gray-950 via-slate-900 to-zinc-900">
-      <div className="fixed inset-0 overflow-hidden">
-        <div className="absolute w-96 h-96 bg-indigo-950/20 rounded-full -top-10 -left-10 blur-3xl animate-pulse" />
-        <div className="absolute w-96 h-96 bg-violet-950/20 rounded-full top-1/2 left-1/2 blur-3xl animate-pulse" />
-        <div className="absolute w-96 h-96 bg-purple-950/20 rounded-full -bottom-10 -right-10 blur-3xl animate-pulse" />
-      </div>
 
       <Card className="w-full max-w-xl bg-gray-950/50 backdrop-blur-xl border-gray-800 shadow-2xl relative">
         <CardContent className="p-8">
