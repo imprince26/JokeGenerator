@@ -109,6 +109,15 @@
   }
 }
 
+::selection{
+  background-color: purple;
+  color:white;
+}
+::-moz-selection{
+  background-color: purple;
+  color:white;
+}
+
 @layer base {
   * {
     @apply border-border;
